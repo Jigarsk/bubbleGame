@@ -36,6 +36,7 @@ body {
   color: #000;
   background: #fff5c2;
   padding: 20px;
+
   gap: 20px;
   justify-content: center;
   align-items: center;
@@ -83,4 +84,44 @@ body {
 .bubble:hover {
   background: #5c46ed;
   cursor: pointer;
+}
+@media (max-width: 600px) {
+  .main {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .menu {
+    padding: 5px;
+  }
+
+  .elements h2 {
+    font-size: 16px;
+  }
+
+  .elements div {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+  }
+
+  .bubble {
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+  }
+
+  .game-over-screen h1 {
+    font-size: 20px;
+  }
+
+  .game-over-screen p {
+    font-size: 14px;
+  }
+
+  .game-over-screen h2 {
+    font-size: 18px;
+  }
 }
